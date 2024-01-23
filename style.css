@@ -50,7 +50,9 @@ section{
   gap: 10px;
 }
 
-
+.caja:hover{
+  filter: drop-shadow( 0 0 15px #2fb2bb);
+}
 .caja{
   display: flex;
   width: 200px;
