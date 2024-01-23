@@ -1,6 +1,7 @@
 html{
   width: 100%;
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 *{
@@ -12,21 +13,22 @@ html{
 
 body{
   width: 100%;
+  background: #063940;
+  font-family: 'Courier New', Courier, monospace;
   /* height: 100%; */
   
 }
 .navbar{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   position: sticky;
   width: 100%;
   height: 10vh;
-  background: black;
+  background: #195e63;
   color: aliceblue;
   margin-bottom: 2%;
   top: 0;
-  border: 5px solid red;
   
 }
 
@@ -55,9 +57,9 @@ section{
   height: 200px;
   align-items: center;
   justify-content: center;
-  background: red;
+  background: #8ebdb6;
   border-radius: 15px;
-  box-shadow: 0px 0px 50px  #353535, 0px 0px 50px  #353535, 0px 0px 50px  #353535;
+  
 
 
 
